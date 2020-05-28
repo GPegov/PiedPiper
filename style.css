@@ -1,12 +1,13 @@
 
 body{
  
-  padding-left: 55px;
-  padding-right: 55px;
   margin:auto;
+  width: auto;
 }
 .container5{
   width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
   
 
   
@@ -17,16 +18,28 @@ body{
   padding-top: 20px;
 
 }
+  
+   .hero__message1 {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #fff;
+   }
 .container3{
+  
   max-height: 29px;
   display: flex;
   justify-content: flex-end;
   padding-top: 29px;
   
 }
-.block1{
-  
-}
+.block1{padding-left: 20px;}
+
 .block2{
   padding-right: 4px;
   
@@ -39,8 +52,7 @@ header{
     position:sticky;
     top: 0px;
 
-    padding-left: 55px;
-    padding-right: 55px;
+   
     margin-bottom: 0px;
 
 
@@ -103,8 +115,7 @@ header{
 
     margin-left: auto;
     margin-right: auto;
-    padding-left: 55px;
-    padding-right: 55px;
+   
   }
   
   .hero1 {
@@ -113,17 +124,8 @@ header{
     background-position: center center;
   }
   
-  .hero__message1 {
-    padding-top: 160px;
-    padding-bottom: 160px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 84px;
-    text-align: center;
-    color: #fff;
-  }
+  
+  
   h1{
     padding-top: 48px;
     color: #007765;
@@ -149,8 +151,6 @@ header{
   .container {
     box-sizing: border-box;
 
-    padding-left: 55px;
-    padding-right: 55px;
   }
   
   .hero {
@@ -233,8 +233,7 @@ header{
   }
   #team1{
     padding-top: 48px;
-    padding-left: 55px;
-    padding-right: 54px;
+   
 
     height: 75px;
     color: #007765;
@@ -311,6 +310,58 @@ header{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    
   }
+  @media screen and (max-width: 735px) {
+    .block2{display: none;}
+    .hero__message1{font-size: 36px;
+      padding-top: 50px;
+    padding-bottom: 50px;}
+    .container5{padding-left: 5px;
+    padding-right: 5px;}
+    h1{font-size: 40px;
+      line-height: 50px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      padding-top: 0px;
+    }
+    #p1{font-size: 16px;
+    height: auto;
+    line-height: 25px;
+    }
+    .hero{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .hero__message{
+      font-size: 15px;
+      padding-top: 35px;
+      padding-bottom: 35px;
+    }
+    h2{
+      font-size: 26px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
   
+    #p2{font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+    .dvoinoi{font-size: 16px;
+      line-height: 25px;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    #p4{
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+    #endtext{
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+
+
+  }
