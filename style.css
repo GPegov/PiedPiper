@@ -247,17 +247,17 @@ header{
   .ph1{
       
       padding-top: 40px;
-      float:left;
+      
   }
   .ph2{
     
     padding-top: 40px;
-    float:left;
+    
   }
   .ph3{
     
     padding-top: 40px;
-    float:left;
+    
   }
   .podpis1{
     text-align: center;
@@ -271,7 +271,6 @@ header{
   }
   .podpis2{
     text-align: center;
-    width: 200px;
     height: 22px;
     color: #000000;
     font-family: sans-serif;
@@ -283,7 +282,7 @@ header{
   }
   #end{
 
-    height: 176px;
+    height: auto;
     left: 0px;
     background: #333333;
   }
@@ -358,9 +357,31 @@ header{
       margin-top: 0px;
     }
     #endtext{
+      font-size: 12px;
       padding-right: 10px;
       padding-left: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
+    .team6{
+      padding-left: 0px;
+    }
+    .ph1,.ph2,.ph3,.ph4,.ph5,.ph6{
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-top: 0px;
+
+    }
+    .podpis1{
+      font-size: 16px;
+    }
+    .podpis2{
+      font-size: 12px;
+    }
+    #ppcl{
+      padding-bottom: 40px;
+    }
+    
 
 
 
